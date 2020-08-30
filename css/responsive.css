@@ -1,0 +1,299 @@
+@media (max-width: 320px) {
+    
+    .login__info {
+        padding-top: 8vh;
+    }
+
+    .login__info__head {
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    .login__info__head img {
+        width: 60%;
+    }
+
+    .login__info .form-group:not(:last-of-type) {
+        padding: 5px 10px 5px 10px;
+        border: 1px solid var(--lightgray-color);
+        border-left: 1;
+        border-bottom: 2px solid var(--lightbrown-color);
+    }
+
+    .login__form__submit {
+        height: 40px;
+        line-height: 40px;
+        margin: 20px auto 0 auto;
+        font-size: 13px;
+    }
+
+    .d-mob-none {
+        display: none;
+    }
+    .d-mob-block {
+        display: block;
+    }
+
+}
+
+@media (min-width: 321px) and (max-width: 767px) {
+    
+    .login__info {
+        width: 90vw;
+        margin: auto;
+        padding-top: 5vh;
+        padding-left: 0;
+    }
+
+    .login__info__head {
+        text-align: center
+    }
+
+    .login__info .form-group:not(:nth-of-type(3)) {
+        margin-bottom: 10px;
+    }
+
+    .login__info .form-group:not(:last-of-type) {
+        padding: 10px 20px 10px 20px;
+        border: 1px solid var(--lightgray-color);
+        border-left: 1;
+        border-bottom: 4px solid var(--lightbrown-color);
+        border-radius: 10px;
+    }
+
+    .login__form__submit {
+        height: 50px;
+        line-height: 50px;
+        margin: 60px auto 0 auto;
+        font-size: 14px;
+    }
+    /*========== Start main Dashboard ==========*/
+
+    /*========== End main Dashboard ==========*/
+
+    .d-mob-none {
+        display: none;
+    }
+    .d-mob-block {
+        display: block;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .login__info {
+        width: 80vw;
+        margin: auto;
+        padding-top: 10vh;
+        padding-left: 0;
+    }
+
+    .login__info__head {
+        text-align: center
+    }
+
+    .login__info .form-group:not(:last-of-type) {
+        padding: 10px 20px 10px 20px;
+        border: 1px solid var(--lightgray-color);
+        border-left: 1;
+        border-bottom: 4px solid var(--lightbrown-color);
+        border-radius: 10px;
+    }
+
+    .login__form__submit {
+        height: 55px;
+        line-height: 55px;
+        margin: 100px auto 0 auto;
+        font-size: 14px;
+    }
+
+    /*========== Start main Dashboard ==========*/
+    .mainDashboard__menu_nav > ul > li a {
+        height: 30px;
+        margin-bottom: 8px;
+        padding: 6px 5px 0 20px;
+        font-size: 13px;
+    }
+
+    .mainDashboard__menu_nav > ul > li a > i.fa-chevron-down {
+        font-size: 10px;
+    }
+
+    .mainDashboard__content_header_left form {
+        height: 35px;
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    .mainDashboard__content_header_left form input {
+        width: 82%;
+    }
+
+    .mainDashboard__static {
+        min-height: 135px;
+        margin-bottom: 20px;
+    }
+    
+    .mainDashboard__static_body span {
+        height: 50px;
+        line-height: 50px;
+        width: 50px;
+        margin-right: 10px;
+    }
+
+    .mainDashboard__static_body span img {
+        transform: scale(.6)
+    }
+
+    .mainDashboard__static.first .mainDashboard__static_body span img {
+        transform: scale(.6) translateX(-12px)
+    }
+
+    .mainDashboard__static h2 {
+        font-size: 35px;
+    }
+
+    .mainCard {
+        margin-bottom: 20px;
+    }
+
+    .mainCard__body h5 a {
+        width: 80%;
+        padding: 0 5px;
+    }
+
+    .mainCard__body h5 span {
+        font-size: 11px;
+    }
+    /*========== End main Dashboard ==========*/
+    
+    .d-tab-none {
+        display: none;
+    }
+    .d-tab-block {
+        display: block;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1661px) {
+
+    .login__img__raf {
+        background-position: 19vw 38vh;
+    }
+
+    .login__info {
+        width: 100%;
+    }
+
+    .login__info__head p {
+        font-size: 1.4em;
+    }
+
+    .login__form__submit {
+        height: 55px;
+        line-height: 55px;
+        margin: 50px auto 0 auto;
+        font-size: 16px;
+    }
+
+    /*========== Start Main Dashboard ==========*/
+    .mainDashboard__menu_nav > ul > li a {
+        height: 30px;
+        margin-bottom: 8px;
+        padding: 6px 5px 0 20px;
+        font-size: 14px;
+    }
+
+    .mainDashboard__menu_nav > ul > li a > i.fa-chevron-down {
+        font-size: 10px;
+    }
+
+    .mainDashboard__content_header_left form {
+        height: 35px;
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    .mainDashboard__static {
+        min-height: 122px;
+        padding: 5px 10px 5px 15px;
+    }
+
+    .mainDashboard__static.first .mainDashboard__static_body img {
+        transform: scale(.7) translateX(-10px)
+    }
+    
+    .mainDashboard__static_body span {
+        height: 50px;
+        line-height: 50px;
+        width: 50px;
+        margin-right: 10px;
+    }
+
+    .mainDashboard__static_body span img {
+        transform: scale(.7);
+    }
+
+    .mainDashboard__static h2 {
+        font-size: 35px;
+        margin-bottom: 0
+    }
+
+    .mainDashboard__static p {
+        font-size: 13px;
+        transform: translate(-6px, 0);
+    }
+
+    .mainCard__header {
+        display: block;
+    }
+
+    .mainCard__header .mainCard__header__input {
+        height: 25px;
+        width: 47%;
+        float: left;
+        margin: 10px 4px 10px 4px;
+        padding: 4px;
+    }
+
+    .mainCard__body_batch {
+        margin-right: 0;
+        padding: 2px;
+        font-size: 12px;
+    }
+
+    .mainCard__body h5 {
+        font-size: 12px
+    }
+
+    .mainCard__body h5 span {
+        font-size: 9px
+    }
+
+    .mainCard__body_flag {
+        height: 15px;
+        width: 15px;
+        margin: 0 10px 0 0;
+        border-radius: 50%;
+    }
+    /*========== End Main Dashboard ==========*/
+
+    .d-lab-none {
+        display: none;
+    }
+    .d-lab-block {
+        display: block;
+    }
+
+}
+
+@media(min-width: 1366px) {
+    
+    .d-lg-none {
+        display: none;
+    }
+    .d-lg-block {
+        display: block;
+    }
+
+}
